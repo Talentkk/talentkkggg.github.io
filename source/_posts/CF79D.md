@@ -22,6 +22,6 @@ $1\leq n\leq 10^4,1\leq k\leq 10,1\leq l\leq 100$
 
 对于后面的部分就是套路的状压 $dp$ ，设 $dp_S$ 还剩集合 $S$ 的位置为 $1$ 的最小操作次数，转移为：
 $$
-dp_{S|\{i\}|\{j\}}\leftarrow dp_{S}+cost(i,j)
+dp_{S}\leftarrow dp_{S|\{i\}|\{j\}}+cost(i,j)
 $$
 时间复杂度 $O(n\times m\times k+2^k\times k^2)$ 。
