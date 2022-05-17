@@ -4,8 +4,6 @@ date: 2022/5/16
 description: 　
 ---
 
-## AGC001E
-
 有 $n$ 对数 $(a_i,b_i)$ ，求：
 $$
 \sum_{i=1}^{n}{\sum_{j=i+1}^{n}{a_i+b_i+a_j+b_j\choose a_i+a_j}}
